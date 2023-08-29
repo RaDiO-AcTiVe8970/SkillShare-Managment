@@ -201,8 +201,8 @@ namespace SkillShare.Controllers
 
         //F6
         [HttpPost]
-        [Route("image/Instructor/upload/{id}")]
-        public HttpResponseMessage Upload_Tourist_Profile_Image(int id)
+        [Route("api/Instructor/image/upload/{id}")]
+        public HttpResponseMessage UploadInsImg(int id)
         {
             try
             {
@@ -266,9 +266,9 @@ namespace SkillShare.Controllers
 
 
         //F7
-        /*[HttpGet]
-        [Route("/instructor/image/{id}")]
-        public HttpResponseMessage Get_Tourist_Profile_Image(int id)
+        [HttpGet]
+        [Route("api/Instructor/image/get/{id}")]
+        public HttpResponseMessage getInsImage(int id)
         {
             try
             {
@@ -278,8 +278,8 @@ namespace SkillShare.Controllers
 
                 if (current_user_ID > 0)
                 {
-                    var current_INS = InstructorService.Get_Image(current_user_ID);
-                    var image = InstructorService.Get_Image(current_INS.);
+                    var current_INS = InstructorService.GetIns(current_user_ID);
+                    var image = InstructorService.Get_Image(current_INS.InstructorId);
 
                     if (image != null)
                     {
@@ -302,7 +302,7 @@ namespace SkillShare.Controllers
                 {
                     var responseMessage = new
                     {
-                        Message = "Please Login First"
+                        Message = "Invalid Instructor ID"
                     };
                     return Request.CreateResponse(HttpStatusCode.Forbidden, responseMessage);
                 }
@@ -314,7 +314,7 @@ namespace SkillShare.Controllers
             {
                 return Request.CreateResponse(HttpStatusCode.InternalServerError, ex.Message);
             }
-        }*/
+        }
 
         private string GetImageContentType(byte[] image)
         {

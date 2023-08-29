@@ -47,7 +47,27 @@ namespace DAL.Repos
 
         public byte[] Get_Image(string imageName)
         {
-            throw new NotImplementedException();
+            try
+            {
+                string projectRoot = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "..", "./DAL");
+                string folderPath = Path.Combine(projectRoot, "Uploads", "Tourists", "Profile_Image");
+                // Remove or replace invalid characters from the imageName
+                string sanitizedImageName = SanitizeFileName(imageName);
+                string imagePath = Path.Combine(folderPath, sanitizedImageName);
+
+                if (File.Exists(imagePath))
+                {
+                    return File.ReadAllBytes(imagePath);
+                }
+                else
+                {
+                    return null;
+                }
+            }
+            catch (Exception ex)
+            {
+                return null;
+            }
         }
 
         public bool Update(Instructor obj)
@@ -60,6 +80,7 @@ namespace DAL.Repos
             ins.InstructorStatus = obj.InstructorStatus;
             ins.InstructorAccountStatus = obj.InstructorAccountStatus;
             ins.RegistrationDate = obj.RegistrationDate;
+            ins.Image= obj.Image;
             return db.SaveChanges() > 0;
         }
 
