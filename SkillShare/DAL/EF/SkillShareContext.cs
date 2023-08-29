@@ -28,5 +28,6 @@ namespace DAL.EF
         public DbSet<Instructor> Instructors { get; set; }
         public DbSet<Token> Tokens { get; set; }
         public DbSet<User> Users { get; set; }
+        public DbSet<Admin> Admins { get; set; }
     }
 }
