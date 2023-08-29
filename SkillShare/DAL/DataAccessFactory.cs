@@ -59,5 +59,9 @@ namespace DAL
         {
             return new InstructorRepo();
         }
+        public static IRepo<Admin, int, bool> AdminDataAccess()
+        {
+            return new AdminRepo();
+        }
     }
 }

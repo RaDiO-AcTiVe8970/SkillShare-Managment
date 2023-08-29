@@ -153,6 +153,7 @@
   <ItemGroup>
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="AuthFilters\Logged.cs" />
+    <Compile Include="Controllers\AdminController.cs" />
     <Compile Include="Controllers\CourseController.cs" />
     <Compile Include="Controllers\InstructorController.cs" />
     <Compile Include="Global.asax.cs">
