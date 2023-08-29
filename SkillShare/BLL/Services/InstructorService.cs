@@ -14,6 +14,7 @@ namespace BLL.Services
     {
         public static bool CreateIns(InstructorDTO ins)
         {
+
             var config = new MapperConfiguration(cfg =>
             {
                 cfg.CreateMap<InstructorDTO, Instructor>();
@@ -135,7 +136,7 @@ namespace BLL.Services
                 if (data != null)
                 {
                     var ct= DateTime.Now;
-                    var F_imgname=(ct.ToString("yyyyMMddHHmmss") + imageName);
+                    var F_imgname=(ct.ToString()) + imageName;
                     data.Image = F_imgname;
                     var des=DataAccessFactory.InstructorDataAccess().Update(data);
                     if(des)
@@ -154,7 +155,6 @@ namespace BLL.Services
                     {
                         return false;
                     }
-
                 }
                 else
                 {
