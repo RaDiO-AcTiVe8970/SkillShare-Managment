@@ -50,7 +50,7 @@ namespace DAL.Repos
             try
             {
                 string projectRoot = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "..", "./DAL");
-                string folderPath = Path.Combine(projectRoot, "Uploads", "Tourists", "Profile_Image");
+                string folderPath = Path.Combine(projectRoot, "Uploads", "Instructor", "Profile_Image");
                 // Remove or replace invalid characters from the imageName
                 string sanitizedImageName = SanitizeFileName(imageName);
                 string imagePath = Path.Combine(folderPath, sanitizedImageName);
@@ -99,7 +99,7 @@ namespace DAL.Repos
             try
             {
                 string projectRoot = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "..", "./DAL");
-                string folderPath = Path.Combine(projectRoot, "Uploads", "Tourists", "Profile_Image");
+                string folderPath = Path.Combine(projectRoot, "Uploads", "Instructor", "Profile_Image");
 
                 if (!Directory.Exists(folderPath))
                 {

@@ -21,7 +21,7 @@ export default function InsProfile( {data} ) {
 
 export async function getServerSideProps() 
 {
-    const response = await axios.get('https://localhost:44310/api/Instructor/GetIns/1',
+    const response = await axios.get('http://localhost:53721/api/Instructor/GetIns/1',
     {
         headers: { 'Content-Type': 'application/json' }
     });

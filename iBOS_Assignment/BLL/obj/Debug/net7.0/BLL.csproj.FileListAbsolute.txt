@@ -1,0 +1,15 @@
+A:\Dot Net\project_repo\SkillShare-Managment\iBOS_Assignment\BLL\bin\Debug\net7.0\BLL.deps.json
+A:\Dot Net\project_repo\SkillShare-Managment\iBOS_Assignment\BLL\bin\Debug\net7.0\BLL.dll
+A:\Dot Net\project_repo\SkillShare-Managment\iBOS_Assignment\BLL\bin\Debug\net7.0\BLL.pdb
+A:\Dot Net\project_repo\SkillShare-Managment\iBOS_Assignment\BLL\bin\Debug\net7.0\DAL.dll
+A:\Dot Net\project_repo\SkillShare-Managment\iBOS_Assignment\BLL\bin\Debug\net7.0\DAL.pdb
+A:\Dot Net\project_repo\SkillShare-Managment\iBOS_Assignment\BLL\obj\Debug\net7.0\BLL.csproj.AssemblyReference.cache
+A:\Dot Net\project_repo\SkillShare-Managment\iBOS_Assignment\BLL\obj\Debug\net7.0\BLL.GeneratedMSBuildEditorConfig.editorconfig
+A:\Dot Net\project_repo\SkillShare-Managment\iBOS_Assignment\BLL\obj\Debug\net7.0\BLL.AssemblyInfoInputs.cache
+A:\Dot Net\project_repo\SkillShare-Managment\iBOS_Assignment\BLL\obj\Debug\net7.0\BLL.AssemblyInfo.cs
+A:\Dot Net\project_repo\SkillShare-Managment\iBOS_Assignment\BLL\obj\Debug\net7.0\BLL.csproj.CoreCompileInputs.cache
+A:\Dot Net\project_repo\SkillShare-Managment\iBOS_Assignment\BLL\obj\Debug\net7.0\BLL.csproj.CopyComplete
+A:\Dot Net\project_repo\SkillShare-Managment\iBOS_Assignment\BLL\obj\Debug\net7.0\BLL.dll
+A:\Dot Net\project_repo\SkillShare-Managment\iBOS_Assignment\BLL\obj\Debug\net7.0\refint\BLL.dll
+A:\Dot Net\project_repo\SkillShare-Managment\iBOS_Assignment\BLL\obj\Debug\net7.0\BLL.pdb
+A:\Dot Net\project_repo\SkillShare-Managment\iBOS_Assignment\BLL\obj\Debug\net7.0\ref\BLL.dll

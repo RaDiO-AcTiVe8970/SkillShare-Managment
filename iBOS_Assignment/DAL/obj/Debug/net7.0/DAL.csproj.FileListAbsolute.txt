@@ -1,0 +1,14 @@
+A:\Dot Net\project_repo\SkillShare-Managment\iBOS_Assignment\DAL\bin\Debug\net7.0\DAL.deps.json
+A:\Dot Net\project_repo\SkillShare-Managment\iBOS_Assignment\DAL\bin\Debug\net7.0\DAL.runtimeconfig.json
+A:\Dot Net\project_repo\SkillShare-Managment\iBOS_Assignment\DAL\bin\Debug\net7.0\DAL.dll
+A:\Dot Net\project_repo\SkillShare-Managment\iBOS_Assignment\DAL\bin\Debug\net7.0\DAL.pdb
+A:\Dot Net\project_repo\SkillShare-Managment\iBOS_Assignment\DAL\obj\Debug\net7.0\DAL.csproj.AssemblyReference.cache
+A:\Dot Net\project_repo\SkillShare-Managment\iBOS_Assignment\DAL\obj\Debug\net7.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+A:\Dot Net\project_repo\SkillShare-Managment\iBOS_Assignment\DAL\obj\Debug\net7.0\DAL.AssemblyInfoInputs.cache
+A:\Dot Net\project_repo\SkillShare-Managment\iBOS_Assignment\DAL\obj\Debug\net7.0\DAL.AssemblyInfo.cs
+A:\Dot Net\project_repo\SkillShare-Managment\iBOS_Assignment\DAL\obj\Debug\net7.0\DAL.csproj.CoreCompileInputs.cache
+A:\Dot Net\project_repo\SkillShare-Managment\iBOS_Assignment\DAL\obj\Debug\net7.0\DAL.dll
+A:\Dot Net\project_repo\SkillShare-Managment\iBOS_Assignment\DAL\obj\Debug\net7.0\refint\DAL.dll
+A:\Dot Net\project_repo\SkillShare-Managment\iBOS_Assignment\DAL\obj\Debug\net7.0\DAL.pdb
+A:\Dot Net\project_repo\SkillShare-Managment\iBOS_Assignment\DAL\obj\Debug\net7.0\DAL.genruntimeconfig.cache
+A:\Dot Net\project_repo\SkillShare-Managment\iBOS_Assignment\DAL\obj\Debug\net7.0\ref\DAL.dll
